@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mi_card/micard.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
-      ),
-    ),
+    MiCard()
   );
 }
